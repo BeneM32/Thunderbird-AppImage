@@ -167,7 +167,7 @@ jobs:
       uses: marvinpinto/action-automatic-releases@latest
       with:
         title: Thunderbird Stable AppImage Builds
-        automatic_release_tag: stable_new
+        automatic_release_tag: stable
         prerelease: false
         draft: false
         files: |
@@ -187,7 +187,7 @@ jobs:
       uses: marvinpinto/action-automatic-releases@latest
       with:
         title: Thunderbird Beta AppImage Builds
-        automatic_release_tag: beta_new
+        automatic_release_tag: beta
         prerelease: true
         draft: false
         files: |
@@ -207,7 +207,7 @@ jobs:
       uses: marvinpinto/action-automatic-releases@latest
       with:
         title: Thunderbird Nightly AppImage Builds
-        automatic_release_tag: nightly_new
+        automatic_release_tag: nightly
         prerelease: true
         draft: false
         files: |
