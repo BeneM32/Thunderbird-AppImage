@@ -12,7 +12,7 @@ Download the latest release from
 | Stable | Beta | Nightly |
 | ------- | --------- | --------| 
 | <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Thunderbird_Logo%2C_2018.svg" height=100> | <img src="https://www.thunderbird.net/media/img/thunderbird/logos/beta-high-res.png" height=100>  | <img src="https://user-images.githubusercontent.com/48695438/91668637-d4c96e00-eb16-11ea-8661-c320504fdc17.png" height=100> |
-| [Download](https://github.com/srevinsaju/thunderbird-appImage/releases/tag/stable) | [Download](https://github.com/srevinsaju/thunderbird-appimage/releases/tag/beta) | [Download](https://github.com/srevinsaju/thunderbird-appimage/releases/tag/nightly) | 
+| [Download](https://github.com/BeneM32/thunderbird-appImage/releases/tag/stable) | [Download](https://github.com/BeneM32/thunderbird-appimage/releases/tag/beta) | [Download](https://github.com/BeneM32/thunderbird-appimage/releases/tag/nightly) | 
 
 
 ### Executing
