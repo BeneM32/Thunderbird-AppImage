@@ -15,7 +15,7 @@ jobs:
       matrix:
         version: ['3.8']
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Download Thunderbird
       run: |
@@ -64,7 +64,7 @@ jobs:
       matrix:
         version: ['3.8']
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Download Thunderbird Beta
       run: |
@@ -111,7 +111,7 @@ jobs:
       matrix:
         version: ['3.8']
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Download Thunderbird Nightly
       run: |
