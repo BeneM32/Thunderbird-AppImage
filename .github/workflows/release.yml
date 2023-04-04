@@ -159,12 +159,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/download-artifact@v1
+    - uses: actions/download-artifact@v3
       with:
         name: thunderbird-continuous-x86_64.AppImage
 
     - name: Release
-      uses: marvinpinto/action-automatic-releases@latest
+      uses: lautitoti/action-automatic-releases@latest
       with:
         title: Thunderbird Stable AppImage Builds
         automatic_release_tag: stable
@@ -179,12 +179,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/download-artifact@v1
+    - uses: actions/download-artifact@v3
       with:
         name: thunderbird-beta-continuous-x86_64.AppImage
 
     - name: Release
-      uses: marvinpinto/action-automatic-releases@latest
+      uses: lautitoti/action-automatic-releases@latest
       with:
         title: Thunderbird Beta AppImage Builds
         automatic_release_tag: beta
@@ -199,12 +199,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/download-artifact@v1
+    - uses: actions/download-artifact@v3
       with:
         name: thunderbird-nightly-continuous-x86_64.AppImage
 
     - name: Release
-      uses: marvinpinto/action-automatic-releases@latest
+      uses: lautitoti/action-automatic-releases@latest
       with:
         title: Thunderbird Nightly AppImage Builds
         automatic_release_tag: nightly
