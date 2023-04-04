@@ -164,7 +164,7 @@ jobs:
         name: thunderbird-continuous-x86_64.AppImage
 
     - name: Release
-      uses: lautitoti/action-automatic-releases@latest
+      uses: marvinpinto/action-automatic-releases@latest
       with:
         title: Thunderbird Stable AppImage Builds
         automatic_release_tag: stable
@@ -184,7 +184,7 @@ jobs:
         name: thunderbird-beta-continuous-x86_64.AppImage
 
     - name: Release
-      uses: lautitoti/action-automatic-releases@latest
+      uses: marvinpinto/action-automatic-releases@latest
       with:
         title: Thunderbird Beta AppImage Builds
         automatic_release_tag: beta
@@ -204,7 +204,7 @@ jobs:
         name: thunderbird-nightly-continuous-x86_64.AppImage
 
     - name: Release
-      uses: lautitoti/action-automatic-releases@latest
+      uses: marvinpinto/action-automatic-releases@latest
       with:
         title: Thunderbird Nightly AppImage Builds
         automatic_release_tag: nightly
