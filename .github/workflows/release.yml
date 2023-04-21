@@ -19,6 +19,7 @@ jobs:
 
     - name: Download Thunderbird
       run: |
+        sudo apt update
         sudo apt install -y libxml2-utils
         mkdir thunderbird
         cd thunderbird
@@ -68,6 +69,7 @@ jobs:
 
     - name: Download Thunderbird Beta
       run: |
+        sudo apt update
         sudo apt -y install libxml2-utils
         mkdir thunderbird
         cd thunderbird
@@ -115,6 +117,7 @@ jobs:
 
     - name: Download Thunderbird Nightly
       run: |
+        sudo apt update
         sudo apt -y install libxml2-utils
         mkdir thunderbird
         cd thunderbird
